@@ -14,3 +14,6 @@ Process
 - 9. Create a function  whcih gives the cosine similarity score and finds the top n recommended movies from the sparse matrix
 
 ![cosine](https://user-images.githubusercontent.com/70027063/117502136-b6b4e700-af9c-11eb-9d7f-e0befaaa4e47.png)
+ 
+ 
+ When item1 and item2 have a smaller angle --> higher similarity percentage
