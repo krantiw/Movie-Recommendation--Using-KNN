@@ -1,15 +1,18 @@
 # Movie-Recommendation--Using-KNN
 Using metric = Cosine and applying cosine similarity concept
-#### This is a Content based Filtering.
+### This is a Content based Filtering.
 - Recommendations are highly relevant to the user
 - It focuses on the properties of items.
 - The similarity of items is determined by measuring the similarity in their properties.**(Here we are using Cosine Similarity)**
 - It doesn't depend on the user data
 - So even if a new user comes in we can recommend the item based on the item data.
+![1_Lr6qL0YjY_WqVK5u-AYHAQ](https://user-images.githubusercontent.com/70027063/117510149-2f21a500-afa9-11eb-9d56-49e69c4d0e27.png)
+
+Source: https://towardsdatascience.com/
 
 
 
-Process 
+### Process 
 - 1. Import pandas and numpy libraries
 - 2. Import  movies and ratings dataset
 - 3. Merge the two datasets with column movieId
