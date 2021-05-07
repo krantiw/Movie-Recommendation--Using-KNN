@@ -1,5 +1,5 @@
 # Movie-Recommendation--Using-KNN
-using metric = Cosine and applying cosine similarity concept
+Using metric = Cosine and applying cosine similarity concept
 
 
 Process 
@@ -10,10 +10,11 @@ Process
 - 5. Convert this matrix into a sparse matrix using csr_matrix for arithmetic operations and row slicing
 - 6. Implement Unsupervised Machine Learning Algorith Using NearestNeighbors with metric= "cosine" and fit the model
 - 7. Import the process module from fuzzwuzzy library which will speedup the searching process
+-       it will extract the (movie title, the percentage of matching and its index) in the dataframe movies
 - 8. The process module will  will extract the movie title, the percentage of matching and  its index in the dataframe movies
 - 9. Create a function  whcih gives the cosine similarity score and finds the top n recommended movies from the sparse matrix
         
-        NearestNeighbors.kneighbors returns the distance and indices
+        ### NearestNeighbors.kneighbors returns the distance and indices
         - distance : Array representing the lengths to points i.e the cosine distance to the point, only present if return_distance=True, if distance is less, it is highly similiar.
        - indices :Indices of the nearest points in the matrix
 
